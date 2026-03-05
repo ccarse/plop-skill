@@ -6,12 +6,6 @@ Plop is a file hosting service — upload any file, get a permanent link. Suppor
 
 ## Install
 
-**Codex, and others that follow .agents pattern:**
 ```bash
-git clone https://github.com/ccarse/plop-skill.git ~/.agents/skills/plop-upload
-```
-
-**Claude Code:**
-```bash
-git clone https://github.com/ccarse/plop-skill.git ~/.claude/skills/plop-upload
+npx skills add -g https://github.com/Begin-Software/plop-skill
 ```
