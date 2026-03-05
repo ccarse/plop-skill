@@ -1,13 +1,19 @@
 # plop-skill
 
-A [Claude Code skill](https://code.claude.com/docs/en/skills) that lets Claude upload files to [plop.so](https://plop.so) and get permanent public URLs.
+An [agent skill](https://agentskills.io) that lets AI coding agents upload files to [plop.so](https://plop.so) and get permanent public URLs.
 
 Plop is a file hosting service — upload any file, get a permanent link. Supports custom domains and subdomain aliases.
 
 ## Install
 
+**Claude Code:**
 ```bash
 git clone https://github.com/ccarse/plop-skill.git ~/.claude/skills/plop-upload
+```
+
+**Codex:**
+```bash
+git clone https://github.com/ccarse/plop-skill.git ~/.agents/skills/plop-upload
 ```
 
 ## What's included
